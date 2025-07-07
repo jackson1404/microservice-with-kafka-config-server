@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservices-with-kafka.config.server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jackson1404/microservice-with-kafka-config-repo.git
+          default-label: master
+
+server:
+  port: 8888
+
